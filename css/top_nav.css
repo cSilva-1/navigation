@@ -1,0 +1,116 @@
+/* TopNav */
+
+
+.topNav {
+  
+  position: fixed;
+  height: var(--ten-gu);
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items:stretch;
+  background-color:var(--header-color);
+  width: 100%;
+}
+
+/* MENU */
+
+#NavMenuTrigger {
+  cursor: pointer;
+}
+
+.menuToggleWrap, .topNavLogoWrap {
+  display: flex;
+  padding:var(--three-gu);
+}
+
+.topNavLogoWrap {
+  align-items: flex-start;
+}
+
+#logo {
+  height: var(--three-gu);;
+}
+
+.menuToggleWrap {
+  display: flex;
+  align-items:center;
+}
+
+
+  
+#menuText {
+  display:inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  line-height:24px;
+  margin-right:8px;
+  pointer-events: none;
+}
+
+
+/* Icon Canvas */
+
+.iconCanvas {
+  width:var(--three-gu);
+  height:var(--three-gu);
+  display:inline-block;
+  position:relative;
+}
+
+/* making BURGER */
+
+
+.bar1 {
+  left:50%;
+  top:20%;
+  transform: translate(-50%,-50%)rotate(0deg) ;
+}
+
+.bar2 {
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%)rotate(0deg) ;
+}
+
+.bar3 {
+  left:50%;
+  top:80%;
+  transform: translate(-50%,-50%)rotate(0deg) ;
+}
+  
+.bar1, .bar2, .bar3 {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  transition-duration: .3s;
+}
+  
+/* making cross*/
+
+
+
+.cross .bar1 {
+  transform: translate(-50%, -50%)rotate(-45deg) ;
+  left:50%;
+  top:50%;
+}
+
+.cross .bar2 {
+  opacity: 0;
+}
+
+.cross .bar3 {
+  transform: translate(-50%, -50%)rotate(45deg) ;
+  left:50%;
+  top:50%;
+}
+
+.cross .bar3, .cross .bar1 {
+  width: 100%;	
+}
+
+  

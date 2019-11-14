@@ -1,0 +1,40 @@
+
+/*Grid Units*/
+
+:root {
+  --one-gu:8px;
+  --two-gu:calc(var(--one-gu)*2);
+  --three-gu:calc(var(--one-gu)*3);
+  --four-gu:calc(var(--one-gu)*4)x;
+  --five-gu:calc(var(--one-gu)*5);
+  --six-gu:calc(var(--one-gu)*6);
+  --seven-gu:calc(var(--one-gu)*7);
+  --eight-gu:calc(var(--one-gu)*8);
+  --six-gu:calc(var(--one-gu)*9);
+  --ten-gu:calc(var(--one-gu)*10);
+}
+
+
+/*Main Colours*/
+
+:root {
+
+  --header-color:var(--secondary);
+  --header-contrast-color:#fff;
+
+  --primary:#08A964;
+  --pPrimary-gradient:#0CF947;
+  --primary-contrast:#fff;
+
+  --secondary:#023F2B;
+  --secondary-contrast:#fff;
+
+  --Tertiary:#D9F2E9;
+
+  --cta-:#0CF947;
+  --cta-contrast:#023F2B;
+  
+  --highlight-:#CF213B;
+  --highlight-contrast:#FFFFFE;
+  
+}
