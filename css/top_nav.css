@@ -13,6 +13,7 @@
   align-items:stretch;
   background-color:var(--header-color);
   width: 100%;
+  gap: 8px;
 }
 
 /* MENU */

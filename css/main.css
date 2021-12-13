@@ -12,19 +12,19 @@ body {
 
 .button {
   
-  margin-top:8px;
   display: flex;
   background-color: blue;
   /*border: 1px solid black;*/
   border: none;
   padding: 0px var(--three-gu) ;
-  text-align: center;
+  align-items:center;
   text-decoration: none;
   height: var(--six-gu);
   width:100%;
   font-family: 'Catamaran';
   font-size: 16px;
   color: transparent;
+  /*border: 5px solid red;*/
 }
 
 
@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-wrap:wrap;
   padding:var(--one-gu);
+  gap: 8px;
 
   }
 
